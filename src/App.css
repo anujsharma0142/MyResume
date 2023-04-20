@@ -1,0 +1,278 @@
+/* /* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .resume {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.personal-details {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.details-container h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.contact-container p {
+  margin: 5px 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.table th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.skills,
+.projects {
+  margin-top: 30px;
+}
+
+.skills h2,
+.projects h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.skills ul,
+.projects ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.skills li,
+.projects li {
+  margin: 5px 0;
+}
+
+.skills li::before,
+.projects li::before {
+  content: "•";
+  color: #999;
+  display: inline-block;
+  width: 10px;
+  margin-left: -15px;
+}
+
+.experience {
+  margin-top: 30px;
+}
+
+.experience h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.experience .underline {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.experience .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.experience .details .year-location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.experience .details .year-location p {
+  margin: 0;
+} */ 
+
+.resume {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.personal-details {
+  display: flex;
+  align-items: center;
+}
+
+.personal-details img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.personal-details .details-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.personal-details .details-container p {
+  margin: 5px 0;
+}
+
+.personal-details .links-container a {
+  display: block;
+  margin: 5px 0;
+}
+
+.table {
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table td, .table th {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #e6e6e6;
+}
+
+.technical-skills, .projects, .experience, .responsibility-certificates, .hobbies {
+  margin-top: 30px;
+}
+
+.technical-skills h2, .projects h2, .experience h2, .responsibility-certificates h2, .hobbies h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.technical-skills .underline, .projects .underline, .experience .underline, .responsibility-certificates .underline, .hobbies .underline {
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+
+.technical-skills ul, .projects ul, .responsibility-certificates ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.technical-skills li, .projects li, .responsibility-certificates li {
+  margin-bottom: 5px;
+}
+
+.projects .project-container {
+  margin-bottom: 20px;
+}
+
+.projects .project-container h3 {
+  margin: 0;
+}
+
+.projects .project-container .year-location {
+  font-style: italic;
+}
+
+.experience .details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.experience .details .year-location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.experience .details .year-location p {
+  margin: 0;
+}
+
+.responsibility-certificates ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.responsibility-certificates li {
+  margin-bottom: 5px;
+}
+
+.hobbies ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.hobbies li {
+  margin-bottom: 5px;
+}
+
